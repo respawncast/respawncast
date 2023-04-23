@@ -1,0 +1,12 @@
+[submodule "themes/hbstack"]
+	path = themes/hbstack
+	url = https://github.com/hbstack/theme.git
+[submodule "themes/Blonde"]
+	path = themes/Blonde
+	url = https://github.com/opera7133/Blonde.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
+[submodule "public"]
+	path = public
+	url = https://github.com/respawncast/respawncast.github.io

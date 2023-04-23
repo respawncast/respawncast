@@ -1,0 +1,66 @@
+baseURL = "https://respawncast.github.io/"
+languageCode = 'en-us'
+title = 'respawncast'
+theme = 'hugo-coder'
+
+[permalinks]
+  posts = "/:filename/"
+
+paginate = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Osvaldo Firmino & Snyder Macedo"
+  info = "Jogamos desde dos classico Super Nintendo aos AAA"
+  description = "Blog - games a nossa diversão"
+  keywords = "games,video games"
+  avatarurl = "/img/games2.png"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  # url = "https://github.com/johndoe/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  # url = "https://gitlab.com/johndoe/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  # url = "https://twitter.com/johndoe/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "PodCast"
+  weight = 2
+  url = "podcast/"
+[[menu.main]]
+  name = "About"
+  weight = 3
+  url = "about/"
